@@ -71,7 +71,7 @@ button:hover {
     <?php
     // Include the process PHP file if the form is submitted
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['beli'])) {
-        include 'process.php';
+        include 'proses.php';
     }
     ?>
 
