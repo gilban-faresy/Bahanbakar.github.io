@@ -71,7 +71,7 @@ button:hover {
     <?php
     // Include the process PHP file if the form is submitted
     if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['beli'])) {
-        include 'proses.php';
+        include 'includes/proses.php';
     }
     ?>
 
@@ -85,7 +85,7 @@ button:hover {
             <div class="form-jenis">
                 <label for="jenis">Pilih jenis bahan bakar</label>
                 <select name="jenis" required>
-                    <option value="SSuper">Shell Super</option>
+                    <option value="SSSuper">Shell Super</option>
                     <option value="SVPower">Shell V-Power</option>
                     <option value="SVPowerDiesel">Shell V-Power Diesel</option>
                     <option value="SVPowerNitro">Shell V-Power Nitro</option>
